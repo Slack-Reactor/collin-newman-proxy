@@ -1,8 +1,0 @@
-"filename", "language", "JSON", "JavaScript", "Markdown", "HTML", "comment", "blank", "total"
-"/Users/collin/Documents/HackReactor/fec/collin-newman-proxy/README.md", "Markdown", 0, 0, 1, 0, 0, 0, 1
-"/Users/collin/Documents/HackReactor/fec/collin-newman-proxy/package-lock.json", "JSON", 974, 0, 0, 0, 0, 1, 975
-"/Users/collin/Documents/HackReactor/fec/collin-newman-proxy/package.json", "JSON", 32, 0, 0, 0, 0, 1, 33
-"/Users/collin/Documents/HackReactor/fec/collin-newman-proxy/public/app.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
-"/Users/collin/Documents/HackReactor/fec/collin-newman-proxy/public/index.html", "HTML", 0, 0, 0, 11, 0, 0, 11
-"/Users/collin/Documents/HackReactor/fec/collin-newman-proxy/server/index.js", "JavaScript", 0, 11, 0, 0, 0, 4, 15
-"Total", "-", 1006, 11, 1, 11, 0, 7, 1036
