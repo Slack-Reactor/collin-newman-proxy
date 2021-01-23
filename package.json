@@ -1,0 +1,33 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "proxy server for slack-reactor services",
+  "main": "server/index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "webpack": "^5.17.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "nodemon /server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slack-Reactor/collin-newman-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "server",
+    "express"
+  ],
+  "author": "collin newman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Slack-Reactor/collin-newman-proxy/issues"
+  },
+  "homepage": "https://github.com/Slack-Reactor/collin-newman-proxy#readme"
+}
