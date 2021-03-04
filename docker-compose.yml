@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  overview:
+    container_name: overview
+    image: collin-newman/collinnewman/trip_advisor_productoverview
+    ports:
+      - '80:3001'
+    links:
+      - mongo
+  relatedItems:
+    container_name: relatedItems
+    image: collin-newman/collinnewman/trip_advisor_relateditems
+    ports:
+      - '80:3002'
+    links:
+      - mongo
+  map:
+    container_name: map
+    image: collin-newman/collinnewman/trip_advisor_map
+    ports:
+      - '80:3003'
+    links:
+      - mongo
+  reviews:
+    container_name: reviews
+    image: collin-newman/collinnewman/trip_advisor_reviews
+    ports:
+      - '80:3003'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - 'mongoDB:/data/db'
+
+volumes:
+  mongoDB:
